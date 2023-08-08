@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 24px;
+}
+
+.nav1 .menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav1 .search {
+    display: flex;
+    gap: 0;
+}
+
+.nav1 img:hover {
+    cursor: pointer;
+}
+
+.search .search-bar {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+
+.search .search-button {
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
+
+.nav1 .account {
+    display: flex;
+    gap: 24px;
+}
+
+.main-container {
+    display: flex;
+    gap: 10px;
+    max-width: 100vw;
+    margin: 28px 10px 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 952px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.main-content .playing {
+    width: 952px;
+    height: 537px;
+}
+
+.main-content .main-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-content .main-data {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-content .main-description {
+    color: #515151;
+    font-size: 14px;
+    font-weight: 400;
+    width: 510px;
+}
+
+.main-content .content-menu {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.content-menu .channel-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.channel-info .channel-data {
+    display: flex;
+    flex-direction: column;
+    width: 106px;
+}
+
+.channel-data .channel-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.channel-name:hover {
+    cursor: pointer;
+}
+
+.channel-data .channel-subs {
+    color: #515151;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.content-menu .subscribe {
+    width: 159px;
+    align-self: stretch;
+    border-radius: 2px;
+    border: none;
+    background: #C00;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.subscribe:hover {
+    cursor: pointer;
+}
+
+.content-menu .reactions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.reactions .reaction:hover {
+    cursor: pointer;
+}
+
+.reactions p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-container .catalogue {
+    display: flex;
+}
+
+.catalogue .catalogue-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.catalogue-list li {
+    display: flex;
+    gap: 16px;
+}
+
+li .thumb {
+    width: 160px;
+    height: 90px;
+}
+
+.thumb:hover {
+    cursor: pointer;
+}
+
+li .list-info {
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    gap: 8px;
+}
+
+.list-info h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.list-info h3:hover {
+    cursor: pointer;
+}
+
+.list-info p {
+    color: #515151;
+    font-size: 12px;
+    font-weight: 400;
+}
